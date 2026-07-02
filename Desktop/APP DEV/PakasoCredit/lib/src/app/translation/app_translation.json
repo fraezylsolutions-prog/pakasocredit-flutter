@@ -1,0 +1,21 @@
+{
+  "welcome": {
+    "title": "Welcome to",
+    "appName": "Pakaso Credit",
+    "tagline": "Banking made simple, secure, and seamless.",
+    "buttonText": "Get Started",
+    "exitDialog": {
+      "title": "Exit Application",
+      "message": "Are you sure you want to exit the application?"
+    }
+  },
+  "home": {
+    "drawer": {
+      "title": "Navigations"
+    }
+  },
+  "signIn": {
+    "welcomeText": "Welcome Back!",
+    "signInButton": "Sign In"
+  }
+}

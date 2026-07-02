@@ -1,0 +1,118 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.fvm/
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+hs_err_pid*.log
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# FVM Version Cache
+.fvm/
+
+# ============================================================================
+# SECURITY: Never commit credentials, private keys, or service account files
+# ============================================================================
+
+# Stray / accidental folders that may contain secrets
+/New folder/
+/New Folder/
+/secrets/
+/keys/
+/certs/
+
+# Firebase service account keys (Admin SDK) — must NEVER be in source control
+**/firebase-adminsdk-*.json
+**/*-firebase-adminsdk-*.json
+**/serviceAccount*.json
+**/service-account*.json
+firebase-credentials.json
+
+# google-services.json (Android) and GoogleService-Info.plist (iOS) — these
+# contain public API keys but linking them to source control is still a
+# security anti-pattern. Keep these out of the repo and add them per-developer.
+# Uncomment the next two lines if you want to enforce that policy.
+# /android/app/google-services.json
+# /ios/Runner/GoogleService-Info.plist
+
+# FlutterFire auto-generated config — generated locally per developer
+lib/firebase_options.dart
+.firebaserc
+.firebase/
+
+# Keystores, signing keys, and provisioning profiles
+**/*.keystore
+**/*.jks
+**/*.p12
+**/*.pfx
+**/*.p8
+**/*.cer
+**/*.mobileprovision
+**/*.provisionprofile
+**/key.properties
+**/key.jks
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Local env / config files
+.env
+.env.*
+*.env
+.env.local
+.env.development
+.env.production
+secrets.yaml
+secrets.yml
+secrets.json
+config.local.*
+local.properties
+
+# macOS / Windows / Linux temp
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Coverage / test outputs
+coverage/
+*.lcov
+test/.test_coverage.dart
